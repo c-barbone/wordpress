@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/*
+Theme Name: Intégration WordPress
+*/
+
+font-face {
+    font-family: 'dimitrinaregular';
+    src: url('evolutionfonts_-_dimitrina-webfont.woff2') format('woff2'),
+    url('evolutionfonts_-_dimitrina-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+    }
+
+    body{
+
+        font-family: Arial;
+    }
+
+.aboutp{
+    width: 45%;
+}
+
+h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+span{
+    color: #f47b41;
+}
+
+.menu-item{
+    list-style-type:none ;
+}
+
+.menu-item>a{
+    text-decoration: none !important;
+    color: black;
+    font-family: arial;
+    font-style: italic;
+}
+
+.menu-item>a:hover{
+    color: #f47b41;
+
+}
+
+
+.bggrey{
+    background-color: #e5e5e6;
+    margin-right: 50px !important;
+    }
+    
+    .grey{
+        color: #848484 !important;
+    }
+
+    .grey:hover{
+        color: #f47b41 !important;
+    }
+    .paragraphe1{
+        column-count:2;
+        }
+
+    .paragraphe{
+    column-count:3;
+    margin-top: 5px
+    }
+    
+    .logo{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    color:#fff;
+    font-size:1.1em;
+    font-weight:600;
+    background-color: rgba(54,51,57,1);
+    border: 1px solid rgba(0,0,0,0.2);
+    }
+    
+    .logosecond{
+    left: 25px;
+    top: 50%;
+    font-size: 25px;
+    position: relative;
+    z-index: 2;
+    color: white !important;
+    }
+
+    .firstMenu{
+        /* margin-top: 20px; */
+        }
+
+        .secondMenu{
+           
+            position: absolute;
+            bottom: 40px;
+            min-height: 100px;
+            }
+
+.carousel-indicators li{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+    background-color:black;
+}
+
+.carousel-indicators{
+position: relative !important;
+justify-content: flex-end;
+margin-right: 0;
+margin-left: 0;
+
+}
+
+    hr:not([size]){
+        height:8px;
+        }
+   
+.vertical-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+}
+
+.img{
+
+    text-align: center;
+}
+
+/* media querie responsive phone */
+@media (max-width: 767px) {
+    .paragraphe1{
+    column-count:1;
+    }
+    .paragraphe{
+    column-count:1;
+    }
+    }
+    
+    /* media querie responsible tablet */
+    @media (min-width: 768px) and (max-width: 1100px) {
+    .paragraphe{
+    column-count:2;
+    }
+    }
