@@ -28,7 +28,7 @@
     <div class="container my-4">
 
       <?php while (have_posts()) : the_post(); ?>
-      <h2 class="my-4 text-uppercase">About <span>paper</span></h2>
+      <h2 class="my-4 text-uppercase">Covid <span>Tracker</span></h2>
       <div class="row">
         <?php the_content(); ?>
         <?php endwhile; ?>
